@@ -1,0 +1,211 @@
+[
+{
+"filter_id":1,
+"products":[{
+             "product_id":10,
+             "product_name":"Twisted Games",
+             "imgSrc":"images/Twistedgames.jfif",
+             "price":500
+             },
+             {
+             "product_id":11,
+             "product_name":"Strangers Book",
+             "imgSrc":"images/strangers.webp",
+             "price":350
+             },
+             {
+             "product_id":13,
+             "product_name":"Rich Dad",
+             "imgSrc":"images/richdad.jfif",
+             "price":500
+             },
+             {
+             "product_id":14,
+             "product_name":"Curse of letting go",
+             "imgSrc":"images/curseoff.webp",
+             "price":600
+             },
+             {
+             "product_id":15,
+             "product_name":"IKIGAI",
+             "imgSrc":"images/ikigai.jpg",
+             "price":500
+             },
+             {
+             "product_id":16,
+             "product_name":"The way of Dekker",
+             "imgSrc":"images/wayof.webp",
+             "price":699
+             }]
+ },
+ {
+ "filter_id":2,
+ "products":[{
+            "product_id":17,
+            "product_name":"Women Salwar",
+            "imgSrc":"images/salwar.jfif",
+            "price":3000
+            },
+            {
+            "product_id":18,
+            "product_name":"Jean",
+            "imgSrc":"images/jean.jfif",
+            "price":1999
+            },
+            {
+            "product_id":19,
+            "product_name":"Maxi For Women",
+            "imgSrc":"images/maxi.jfif",
+            "price":640
+            },
+            {
+            "product_id":20,
+            "product_name":"Kurti for women",
+            "imgSrc":"images/kurti.jfif",
+            "price":600
+            }]
+            },
+
+{
+ "filter_id":3,
+ "products":[{
+            "product_id":21,
+            "product_name":"Men Suit",
+            "imgSrc":"images/suit.jfif",
+            "price":999
+            },
+            {
+            "product_id":22,
+            "product_name":"Men shirt",
+            "imgSrc":"images/shirts.jfif",
+            "price":300
+            },
+            {
+          "product_id":23,
+            "product_name":"Men Salwar",
+            "imgSrc":"images/salwarr.jfif",
+            "price":2900
+            },
+            {
+            "product_id":24,
+            "product_name":"Men Shoe",
+            "imgSrc":"images/shoee.jfif",
+            "price":800
+            
+            }]
+            
+ },
+ {
+ "filter_id":4,
+ "products":[{
+            "product_id":25,
+            "product_name":"Tops for kids",
+            "imgSrc":"images/tops.jfif",
+            "price":950
+            },
+            {
+            "product_id":26,
+            "product_name":"Salwar Kid",
+            "imgSrc":"images/salwarkid.jfif",
+            "price":2000
+            },
+            {
+          "product_id":27,
+            "product_name":"Party Gown ",
+            "imgSrc":"images/gown.jfif",
+            "price":500
+            },
+            {
+            "product_id":28,
+            "product_name":"Maxi for Kids",
+            "imgSrc":"images/maxii.jfif",
+            "price":1200
+            
+            }]
+            
+ },
+ 
+ {
+ "filter_id":5,
+ "products":[{
+             "product_id":29,
+             "product_name":"Chess",
+             "imgSrc":"images/chess.jfif",
+             "price":600
+             },
+             {
+             "product_id":30,
+             "product_name":"Carrom board",
+             "imgSrc":"images/carrom.jfif",
+             "price":500
+             },
+             {
+             "product_id":31,
+             "product_name":"Ludo Play",
+             "imgSrc":"images/ludo.jfif",
+             "price":1000
+             },
+             {
+             "product_id":32,
+             "product_name":"Tic Tac Toe",
+             "imgSrc":"images/tictac.jfif",
+             "price":3000
+             
+             }]
+ },
+ {
+ "filter_id":6,
+ "products":[{
+              "product_id":33,
+              "product_name":"Air cooler",
+              "imgSrc":"images/aircooler.webp",
+              "price":8000
+              },
+              {
+              "product_id":34,
+              "product_name":"AC",
+              "imgSrc":"images/ac.jfif",
+              "price":45000
+              },
+              {
+              "product_id":35,
+              "product_name":"Refrigerator",
+              "imgSrc":"images/fridge.webp",
+              "price":15000
+              },
+              {
+              "product_id":36,
+              "product_name":"Washing Machine",
+              "imgSrc":"images/washingmachine.jfif",
+              "price":399
+              }]
+ },
+ {
+ "filter_id":7,
+ "products":[{
+              "product_id":37,
+              "product_name":"Pencil",
+              "imgSrc":"images/pencil.jfif",
+              "price":99
+              },
+              {
+              "product_id":38,
+              "product_name":"Flair Click pen",
+              "imgSrc":"images/Flairpen.webp",
+              "price":99
+              },
+              {
+              "product_id":39,
+              "product_name":"Eraser",
+              "imgSrc":"images/rubber.jfif",
+              "price":110
+              },
+              {
+              "product_id":40,
+              "product_name":"Panda Sharpener",
+              "imgSrc":"images/sharpener.jfif",
+              "price":99
+              }]
+ 
+}
+]

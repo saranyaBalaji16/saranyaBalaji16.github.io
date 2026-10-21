@@ -1,0 +1,236 @@
+<HTML>
+<head>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<link rel="stylesheet " href="CSS/style.css">
+
+<style>
+  body
+  {
+            /*background-image: url("https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?fm=jpg&q=80&w=1600&fit=crop");*/
+            background-color: #f4f1e4;
+            /*background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;*/
+            margin: 0;
+            padding: 30px 0;
+        }
+   /*.wrapper 
+   {
+    width:1100px;
+    height:500px;
+    margin:auto;
+    
+   }*/ 
+    header {
+            width: 100%;
+            padding: 30px;
+            text-align: center;
+            color: white;
+            background-color: #534e26;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+
+   nav 
+   {
+    width:100%;
+    height:auto;
+    margin:auto;
+    /*border:2px solid red;*/
+   }
+
+   main 
+   {
+    width:1100px;
+    height:auto;
+    border-width:0px 2px 2px 2px;
+    border-color:#e4f0f4;
+    border-style:solid;
+    
+    margin:auto;
+   }
+   .carousel-inner 
+   {
+    padding:20px;
+    box-sizing:border-box;
+   }
+   
+    .carousel-inner img
+     {
+    display: block;
+    width: 900px;
+    height: 450px;
+    object-fit: cover;
+    margin: 0 auto;
+    
+     }
+
+     nav 
+     {
+      background-color: #9d732a;
+      
+     }
+
+     nav a:link 
+     {  
+      color:black;
+     }
+     nav a {
+    color: black;
+    text-decoration: none;
+}
+
+     /*nav a:hover
+     {
+      color:#E76F51;
+     }
+
+     nav a:visited 
+     {
+      
+     }*/
+
+     
+
+     
+   
+
+   footer {
+            padding: 20px;
+            color: white;
+            text-align: center;
+            background-color: #533826;
+        }
+
+        footer p {
+            margin: 5px;
+        }
+</style>
+</head>
+<body>
+<div class="wrapper">
+  <header>
+        <h1>Shopping Zone</h1>
+    </header>
+<nav class="navbar navbar-expand-md  sticky-top" style="z-index:1;">
+
+<button class="navbar-toggler" data-toggle="collapse" data-target="#myNavBar">
+    <span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse justify-content-center" id="myNavBar">
+<ul class="navbar-nav" style="text-align:center;">
+    <li class="nav-item">
+        <a class="nav-link" href="#">HOME</a>
+    </li>
+    <li class="nav-item dropdown" style="width:100px;margin:auto;">
+        <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" href="#">CLOTHES</a>
+        <div class="dropdown-menu">
+            <a role="button" onclick="displayItems(3)" class="dropdown-item">Men's Wear</a>
+            <div class="dropdown-divider"></div>
+
+            <a role="button" onclick="displayItems(4)"class="dropdown-item">Kids Wear</a>
+            <div class="dropdown-divider"></div>
+
+            <a role="button" onclick="displayItems(2)" class="dropdown-item">Women's wear</a>
+            
+        </div>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" onclick="displayItems(7)" href="#">STATIONARY</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" onclick="displayItems(6)" href="#">HOME APPLIANCES</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" onclick="displayItems(5)" href="#">GAMES</a>
+    </li>
+     <li class="nav-item">
+        <a class="nav-link" onclick="displayItems(1)" href="#">BOOKS</a>
+    </li>
+    
+</ul>
+</div>
+
+
+
+
+</nav>
+<main>
+<div class="myRow">
+<div id="demo" class="carousel slide" data-ride="carousel" data-interval="3000">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+    <li data-target="#demo" data-slide-to="3"></li>
+    <li data-target="#demo" data-slide-to="4"></li>
+  </ul>
+
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/shopp.jpg"  style="object-position:0px -180px;" alt="Mens and Womens wear">
+      <div class="carousel-caption">
+        
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/perfum.jpg" style="object-position:0px -180px;" alt="Notes and Pens">
+    </div>
+    <div class="carousel-item">
+      <img src="images/electronicss.jpg"  style="object-position:0px -150px;" alt="Home Appliances">
+    </div>
+    <div class="carousel-item">
+      <img src="images/chesss.jpg"  alt="Games">
+    </div>
+    <div class="carousel-item">
+      <img src="images/bokks.jpg" style="object-position:0px -180px;" alt="Books">
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+
+</div>
+
+
+
+</div>
+
+</main>
+<script src="js/MyApp.js"></script>
+ 
+<footer>
+        <p>&copy; 2026 Costume Department. All rights reserved.</p>
+        <p>Home | About | Contact Us</p>
+    </footer>
+
+    </div>
+
+<div id="flexOutput"></div>
+<div id="finalBill"></div>
+</body>
+</HTML>
